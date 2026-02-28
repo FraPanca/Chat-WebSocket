@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+    width: 420px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    padding: 24px;
+}
+
+#accesso form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#accesso input {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+#accesso input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+#accesso button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#accesso button:hover {
+    background: #5566d9;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+}
+
+#messaggi {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    overflow-y: auto;
+    margin-bottom: 12px;
+    background: #f9f9f9;
+}
+
+#messaggi p {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+#chat input {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#chat input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+#chat button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#chat button:hover {
+    background: #5566d9;
+}
